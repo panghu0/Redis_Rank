@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: RedisApplication
+  redis:
+    host: 192.168.0.100
+    port: 6379
+    password: password
+    timeout: 200
+  cache:
+    type: redis
